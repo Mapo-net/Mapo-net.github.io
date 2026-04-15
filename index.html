@@ -1,85 +1,171 @@
 <!DOCTYPE html>
 <html>
 
+<!-- head -->
+
 <head>
     <title>CV Mathieu Pouillaude</title>
     <meta charset="UTF-8">
-
-    <style>
-    body {
-        font-family: Arial;
-        max-width: 800px;
-        margin: auto;
-        padding: 20px;
-        background-color: #f4f4f4;
-    }
-
-    h1 {
-        color: #2563eb;
-    }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+<!-- Body -->
+
 <body>
-    <h1>Mathieu Pouillaude</h1>
-    <p>Apprenti en Informatique</p>
+
+    <!-- Presentation -->
+
+    <img src="images/PP.PNG" alt="photo de profil">
+    <h1 class="titre" id="Nom">Mathieu Pouillaude</h1>
+    <p class="titre" id="job_recherché">Apprenti en Informatique</p>
+
+    <p class="titre" id="informations complémentaire">
+        Disponible dés à présent<BR />
+        Mobilité : Toute la France<BR />
+        localistion : Le Vésinet, 78110<BR />
+    </p>
 
     <h2>Profil</h2>
-    <p>Étudiant en 3ème année de Bachelor informatique, je recherche une alternance de 1 an ou plus, dans le domaine de l’informatique.<BR />
-        Motivé à mettre en pratique mes acquis, je souhaite contribuer au développement, à l’optimisation et à la fiabilité de vos <BR />
-        solutions numériques et de vos infrastructures informatiques. J’ai à cœur d’apprendre le plus exactement possible les notions <BR />
-        essentielles pour assurer la fiabilité de mon travail.
-    </p>
+        <p class="profil" id="introduction">
+            Étudiant en 3ème année de Bachelor informatique, je recherche une alternance de 1 an ou plus, dans le domaine de l’informatique.<BR />
+            Motivé à mettre en pratique mes acquis, je souhaite contribuer au développement, à l’optimisation et à la fiabilité de vos <BR />
+            solutions numériques et de vos infrastructures informatiques. J’ai à cœur d’apprendre le plus exactement possible les notions <BR />
+            essentielles pour assurer la fiabilité de mon travail.
+        </p>
 
-    <h2>Projets</h2>
-    <p><BR />
-        Mise en place de Serveur DHCP KEA et DNS Bind9 avec Glances comme superviseur<BR />
-        - Mise en fonctionnement d’une machine physique Debian sur un réseau local<BR />
-        - Installation et configuration de serveur DHCP et DNS <BR />
-        - Mise en service de Glances  en mode client/server <BR />
-    </p>
-    
-    <h2>Formations</h2>
-    <p></p>
+    <!-- core information -->
 
-    <h2>Expériences Professionnelles</h2>
-    <p></p>
-    
     <h2>Soft Skills</h2>
-    <ul>
-        <li>Curieux : Je suis avec assiduité les avancées du monde IT.</li>
-        <li>Rigoureux : J’aime le travail lisible et les informations claires.</li>
-        <li>Adaptable : Toujours partant pour de nouveaux projets.</li>
-        <li>Motivé : Passionné par l’informatique, j’apprécie beaucoup apprendre.</li>
-    </ul>   
+        <ul>
+            <li>Curieux : Je suis avec assiduité les avancées du monde IT.</li>
+            <li>Rigoureux : J’aime le travail lisible et les informations claires.</li>
+            <li>Adaptable : Toujours partant pour de nouveaux projets.</li>
+            <li>Motivé : Passionné par l’informatique, j’apprécie beaucoup apprendre.</li>
+        </ul>   
 
 
     <h2>Hard Skills</h2>
-    <p>Langages de Programation</p>
-    <ul>
-        <li>SHELL/BASH/POWERSHEL</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>SQL</li>
-        
-    </ul>
+        <p class="hard_skill" id="programmations">Langages de Programmation</p>
+            <ul>
+                <li>SHELL/BASH/POWERSHEL</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>SQL</li>
+                
+            </ul>
 
-    <p>Logiciels</p>
-    <ul>
-        <li>WireShark</li>
-        <li>VirtualBox</li>
-        <li>VMware</li>
-        <li>Docker</li>
-        <li>Power BI</li>
-    </ul>
+        <p class="hard_skill" id="logiciels">Logiciels</p>
+            <ul>
+                <li>WireShark</li>
+                <li>VirtualBox</li>
+                <li>VMware</li>
+                <li>Docker</li>
+                <li>Power BI</li>
+            </ul>
 
-    <p>Outils</p>
-    <ul>
-        <li>Nmap</li>
-        <li>Git</li>
-    </ul>
+        <p class="hard_skill" id="outils">Outils</p>
+            <ul>
+                <li>Nmap</li>
+                <li>Git</li>
+            </ul>
+
+    <h2>Projets</h2>
+
+        <p class="projet" id="projet_dhcp_dns">
+            Mise en place de Serveur DHCP KEA et DNS Bind9 <BR />
+            avec Glances comme superviseur<BR />
+            - Mise en fonctionnement d’une machine physique Debian sur un réseau local<BR />
+            - Installation et configuration de serveur DHCP et DNS <BR />
+            - Mise en service de Glances  en mode client/server <BR />
+        </p>
+
+        <p class="projet" id="projet_pentesting_homelab">
+            Utilisation de Nmap, Wireshark et Metasploit <BR />
+            sous Fedora 41 lors d’exercices réseau dans mon homelab <BR />
+            - Cartographie de réseau connu et écoute des réactions des différentes machines <BR />
+            - Pentesting sur une machine cobaye<BR />
+        </p>
+
+        <p class="projet" id="projet_dhcp_dns">
+            Simulation de réseaux sous GNS3<BR />
+            - Application de gns3 avec virtualbox <BR />
+            - Mise en place de VLANs avec un paramétrage statique d’ip<BR />
+        </p>
+
+        <p class="projet" id="projet_BDD_école"><BR />
+            Création d'un base de donnée sur MySQL connecté à une API python<BR />
+            - Schématisation d'un BDD avec Mérise<BR />
+            - Création d'une BDD SQL avec trigger, procédure stockée et requètes fonctionnelles<BR />
+            - Création d'une API et d'une interface CLI avec FastAPI, UVICORN et Requests <BR />
+        </p>
+
+        <p class="projet" id="projet_autorig">
+            Automatisation Python sur un logiciel propriétaire <BR />
+            - Utilisation de dépendances propriétaires <BR />
+            - Apprentissage de python en autodicate <BR />
+        </p>
+
+        <p class="projet" id="projet_calculatrice_java">
+            Dévellopement d'une calculatrice  en Java<BR />
+            - Utilisation des dépendances Swing et AWT pour l'interface<BR />
+        </p>
+
+        <p class="projet" id="projet_SI_java">
+            Dévellopement d'un système d'information en Java<BR />
+            - Utilisation du Framework SpringBoot<BR />
+            - Mise en place d'une API REST<BR />
+            - Travaille en équipe de 4 avec la méthode AGIL<BR />
+            - Création d'user story<BR />
+        </p>
+
+        <p class="projet" id="projet_N8N"></p>
+    
+    <h2>Formations</h2>
+
+        <p class="formation" id="bachelor_Esiee-it">
+            Informatique, Bachelor (double diplôme Licence CNAM)  2025-2027<BR />
+            ESIEE [IT], Pontoise <BR />
+            - Spécialisation en 2ème année <BR />
+            - Connaissances étendues sur un large spectre de l’informatique<BR />
+            - Volonté de poursuivre vers un cycle d’ingénieur<BR />
+        </p> 
+
+        <p class="formation" id="bachelor_Futurae"> 
+            Animation 3D, Bachelor                                2021-2024<BR />
+            Futurae, Boulogne-Billancourt<BR />
+            - Chef de projet, Rigger et Animateur sur un film de 2 min 30 <BR />
+            - Spécialisation en rig (squelettes et mécanismes de personnages 3D)<BR />
+        </p>
+
+        <p class="formation" id="bacalauréat_Scientifique">
+            Bac Mathématiques/Physique chimie                     2018−2021<BR />
+            Lycée Simone Veil, Boulogne-Billancourt <BR />
+        </p>
+
+    <h2>Certifications</h2>
+
+        <p class="formation" id="certification_cisco">
+            Certifications Cisco Netcad                           2024-2025<BR />
+            - Certifications axées sur la compréhension des protocoles réseaux et <BR />
+            le paramétrage de terminaux cisco (Badges Credly vérifiés et disponible sur linkedin)<BR />
+        </p>
+
+    <h2>Expériences Professionnelles</h2>
+
+        <p class="experience" id="Decocolor">  
+            Responsable de Magasin                                         07/2024-06/2025
+            Decocolor, La Queue-lez-Yvelines
+        </p>
+
+        <p class="experience" id="Macdonalds">
+            Hôte                                                            07/2021-01/2023
+            McDonald's France, Boulogne-Billancourt
+        </p>
+    
+
+    <!-- secondary information -->
 
     <h2>Contact</h2>
     <p>Email : Mathieu.Pouillaude@gmail.com <BR />
@@ -87,11 +173,6 @@
         LinkedIn : linkedin.com/in/mathieu-pouillaude-499977221 <BR />
     </p>
 
-    <h2></h2>
-    <ul>
-        <li></li>
-    </ul>
-
-
 </body>
+<script src="js/script.js"></script>
 </html>

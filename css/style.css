@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Titres */
+h1 {
+    color: #2563eb;
+    text-align: center;
+}
+h2 {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+}
+
+/* Listes */
+ul {
+    list-style-type: square;
+}
+
+/* sections 
+
+.section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}*/
+
+/* alignements 
+p {
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}*/
