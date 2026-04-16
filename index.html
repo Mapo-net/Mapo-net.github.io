@@ -15,15 +15,25 @@
 
     <!-- Presentation -->
 
-    <img src="images/PP.PNG" alt="photo de profil">
+    <img id="photo_de_profil" src="images/PP.PNG" alt="photo de profil">
     <h1 class="titre" id="Nom">Mathieu Pouillaude</h1>
     <p class="titre" id="job_recherché">Apprenti en Informatique</p>
 
-    <p class="titre" id="informations complémentaire">
-        Disponible dés à présent<BR />
-        Mobilité : Toute la France<BR />
-        localistion : Le Vésinet, 78110<BR />
-    </p>
+    <div class="coordonées" id="informations_complémentaire">
+
+        <p id="informations_complémentaire_1">
+            Disponible dés à présent<BR />
+            Mobilité : Toute la France<BR />
+            localistion : Le Vésinet, 78110<BR />
+        </p>
+
+        <p id="informations_complémentaire_2">
+            Email : Mathieu.Pouillaude@gmail.com <BR />
+            Téléphone : +33 6 41 82 23 35 <BR />
+            LinkedIn : linkedin.com/in/mathieu-pouillaude-499977221 <BR />
+        </p>
+        
+    </div>
 
     <h2>Profil</h2>
         <p class="profil" id="introduction">
@@ -46,7 +56,7 @@
 
     <h2>Hard Skills</h2>
         <p class="hard_skill" id="programmations">Langages de Programmation</p>
-            <ul>
+            <ul id="liste_programmations">
                 <li>SHELL/BASH/POWERSHEL</li>
                 <li>Python</li>
                 <li>Java</li>
@@ -57,7 +67,7 @@
             </ul>
 
         <p class="hard_skill" id="logiciels">Logiciels</p>
-            <ul>
+            <ul id="liste_logiciels">
                 <li>WireShark</li>
                 <li>VirtualBox</li>
                 <li>VMware</li>
@@ -66,11 +76,12 @@
             </ul>
 
         <p class="hard_skill" id="outils">Outils</p>
-            <ul>
+            <ul id="liste_outils">
                 <li>Nmap</li>
                 <li>Git</li>
             </ul>
-
+            
+    <div id="div_projets">
     <h2>Projets</h2>
 
         <p class="projet" id="projet_dhcp_dns">
@@ -102,7 +113,7 @@
         </p>
 
         <p class="projet" id="projet_autorig">
-            Automatisation Python sur un logiciel propriétaire <BR />
+            Scripting Python sur un logiciel propriétaire <BR />
             - Utilisation de dépendances propriétaires <BR />
             - Apprentissage de python en autodicate <BR />
         </p>
@@ -120,8 +131,13 @@
             - Création d'user story<BR />
         </p>
 
-        <p class="projet" id="projet_N8N"></p>
-    
+        <p class="projet" id="projet_N8N">
+            Automatisation avec des Agents IA
+            - Hébergement d’un serveur N8N couplé à différents LLM conteneuriser
+            - Découvertes de cas concrets d’utilisation de MCP 
+        </p>
+    </div>
+
     <h2>Formations</h2>
 
         <p class="formation" id="bachelor_Esiee-it">
@@ -143,6 +159,7 @@
             Bac Mathématiques/Physique chimie                     2018−2021<BR />
             Lycée Simone Veil, Boulogne-Billancourt <BR />
         </p>
+    
 
     <h2>Certifications</h2>
 
@@ -155,20 +172,51 @@
     <h2>Expériences Professionnelles</h2>
 
         <p class="experience" id="Decocolor">  
-            Responsable de Magasin                                         07/2024-06/2025
-            Decocolor, La Queue-lez-Yvelines
+            Responsable de Magasin                                         07/2024-06/2025<BR />
+            Decocolor, La Queue-lez-Yvelines<BR />
         </p>
 
         <p class="experience" id="Macdonalds">
-            Hôte                                                            07/2021-01/2023
-            McDonald's France, Boulogne-Billancourt
+            Hôte                                                            07/2021-01/2023<BR />
+            McDonald's France, Boulogne-Billancourt<BR />
         </p>
     
 
     <!-- secondary information -->
+    
+    <h2>Langues</h2>
+        <ul>
+            <li>Français  :  natif </li>
+            <li>Anglais  :  B2 </li>
+        </ul>
 
-    <h2>Contact</h2>
-    <p>Email : Mathieu.Pouillaude@gmail.com <BR />
+    <h2>Passions</h2>
+
+        <p class="passion" id="trekking">
+            Trekking
+        </p>
+
+        <p class="passion" id="tennis">
+            Tennis
+        </p>
+
+        <p class="passion" id="effets_spéciaux">
+            Effets spéciaux
+        </p>
+
+    <h2>Connaissances</h2>
+
+        <p class="connaissances" id="informations_connexes">
+            MODÈLE OSI et TCP/IP, protocoles(ARP, ICMP, DNS, DHCP ...),<BR />
+            RGPD, DORA, NIS2, ISO 27001, ISO27002,<BR />
+            Méthodes de POO (DRY, SOLID, KISS), UML,  MCD<BR />
+            Metasploit, Gobuster, JTR<BR />
+        </p>
+
+    <p class="bas_de_page" id="contact">
+        Contact :<BR />
+        <BR />
+        Email : Mathieu.Pouillaude@gmail.com <BR />
         Téléphone : +33 6 41 82 23 35 <BR />
         LinkedIn : linkedin.com/in/mathieu-pouillaude-499977221 <BR />
     </p>

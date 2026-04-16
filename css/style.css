@@ -1,4 +1,184 @@
+/* =========================
+   BASE GENERALE
+========================= */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 5px;
+    color: #93c5fd;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* =========================
+   Présentation
+========================= */
+
+#photo_de_profil {
+    width: 400px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.titre {
+    margin: 0;
+}
+
+#Nom {
+    font-size: 40px;
+    color: #60a5fa;
+}
+
+#job_recherché {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   INFOS COMPLEMENTAIRES
+========================= */
+
+.coordonées {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* =========================
+   PROFIL
+========================= */
+
+.profil {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* =========================
+   HARD SKILLS
+========================= */
+
+.hard_skill {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+#liste_programmations {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+#liste_logiciels {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+#liste_outils {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+/* =========================
+   PROJETS (GRID)
+========================= */
+
+#div_projets {
+    margin-top: 20px;
+}
+
+#div_projets h2 {
+    margin-bottom: 10px;
+}
+
+/* grille projets */
+#div_projets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* cartes projets */
+.projet {
+    background-color: #1e293b;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    min-height: 120px;
+}
+
+/* =========================
+   FORMATIONS / EXPERIENCE
+========================= */
+
+.formation,
+.experience {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   PASSIONS / CONNAISSANCES
+========================= */
+
+.passion {
+    display: inline-block;
+    background-color: #334155;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.connaissances {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.bas_de_page {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #020617;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* corps 
 body {
     font-family: Arial, sans-serif;
     background-color: #f9fafb;
@@ -8,7 +188,15 @@ body {
     padding: 20px;
 }
 
-/* Titres */
+div {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}*/
+
+/* Titres 
 h1 {
     color: #2563eb;
     text-align: center;
@@ -16,16 +204,26 @@ h1 {
 h2 {
     border-bottom: 2px solid #2563eb;
     padding-bottom: 5px;
-}
+}*/
 
-/* Listes */
+/* Listes 
 ul {
     list-style-type: square;
 }
+*/
+/* id 
 
-/* sections 
+#projet_N8N {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}*/
 
-.section {
+/* class 
+
+.projet {
     background: white;
     padding: 15px;
     margin-bottom: 20px;
